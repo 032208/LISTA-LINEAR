@@ -16,8 +16,15 @@ int main() {
 
     list_insert(A,20);
 
+    list_remove(A,2);
+    list_print(A);
+
+    list_reduce(A);
+    list_print(A);
+
     list_info(A);
     
     list_free(A);
+
     return 0;
 }
